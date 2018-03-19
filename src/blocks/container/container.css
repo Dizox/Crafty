@@ -1,5 +1,5 @@
 .container{
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0px auto;
     padding-left:15px;
     padding-right:15px;
@@ -10,4 +10,109 @@
 .container_width_full{
     width: 100%;
     max-width: 100%;
+    padding: 0px;
+    background-color: #f7f7f7;
+}
+
+.cointainer_top-background{
+    background: url("img/bird.png") no-repeat center / cover;
+    width: 100%;
+    max-width: 100%;
+    margin: 0px;
+    height: 580px;
+    position: relative;
+}
+
+.container__opacity{
+    background-color: #ffffff;
+    opacity: 0.6;
+    padding: 10px 20px;
+    color: #000000;
+    font-family: "Avant Garde LT - Extra Light";
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin-bottom: 1px;
+    width: max-content;
+    position: absolute;
+    left: 45%;
+    top: 30%;
+}
+
+.container__opacity_second{
+    margin-top: 75px;
+}
+
+.container__advantage{
+    display: flex;
+    width: 344px;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+
+.container__advantage-column{
+    max-width: 240px;
+}
+
+.container__advantage-img{
+    width: 64px;
+    height: 64px;
+    border-radius: 360px;
+    margin-top: 10px;
+}
+
+.container__advantage-title{
+    color: #767676;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.container__advantage-text{
+    color: #9e9e9e;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.container_advantages{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    background-color: #f7f7f7;
+}
+
+@media screen and (max-width: 733px){
+    .container__advantage{
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width: 1090px){
+    .container__opacity{
+        left: 35%;
+    }
+}
+
+@media screen and (max-width: 920px){
+    .container__opacity{
+        width: 100%;
+        word-break: break-all;
+        left: 0%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .container__opacity_second{
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .container__advantage-column {
+        max-width: 170px;
+    }
 }

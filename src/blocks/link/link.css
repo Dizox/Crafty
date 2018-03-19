@@ -1,3 +1,33 @@
 .link{
     text-decoration: none;
 }
+
+.link_header{
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.link_social{
+    width: 35px;
+    height: 35px;
+    background-color: #353434;
+    border: 2px solid #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.link_more-info{
+    color: #848484;
+    font-family: Lato;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 780px){
+    .link_header{
+        padding-top: 20px;
+    }
+}
