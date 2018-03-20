@@ -26,6 +26,12 @@
     line-height: 20px;
 }
 
+.link_preview-readmore{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 32px;
+}
+
 @media screen and (max-width: 780px){
     .link_header{
         padding-top: 20px;

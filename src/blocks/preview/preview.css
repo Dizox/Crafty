@@ -1,0 +1,44 @@
+.preview{
+    width: 100%;
+    display: flex;
+}
+
+.preview__img{
+    background: url("img/woman.png") no-repeat center / cover;
+    width: 50%;
+}
+
+.preview__info{
+    background-color: #3b3b3b;
+    width: 50%;
+    padding: 80px 45px 80px 40px;
+}
+
+.preview__title{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.preview__text{
+    color: #eeeeee;
+    font-size: 16px;
+    line-height: 32px;
+    padding-top: 56px;
+    padding-bottom: 41px;
+}
+
+@media screen and (max-width: 800px){
+    .preview{
+        flex-direction: column;
+    }
+    .preview__img {
+        width: 100%;
+        height: 400px;
+    }
+    .preview__info{
+        width: 100%;
+    }
+}
